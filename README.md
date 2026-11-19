@@ -6,7 +6,17 @@ CityLens uses retrieval-augmented generation (RAG). It searches the documents fo
 
 **Tech stack:** Python, pypdf, sentence-transformers, ChromaDB, Claude API, Streamlit
 
+---
+
+## Screenshots
+
+**A question the documents can answer.** The answer comes with the pages it was based on:
+
 ![CityLens answering a question](docs/answer.png)
+
+**A question the documents can't answer.** It says so instead of guessing:
+
+![CityLens saying it couldn't find an answer](docs/not_found.png)
 
 ---
 
@@ -14,10 +24,8 @@ CityLens uses retrieval-augmented generation (RAG). It searches the documents fo
 
 1. **Splits** each PDF into overlapping chunks of about 200 words and remembers each chunk's file and page.
 2. **Searches** by meaning: your question and every chunk are turned into numbers with the `all-MiniLM-L6-v2` model, and the 5 closest chunks are returned.
-3. **Answers** by sending those 5 chunks and your question to Claude, with rules to use only the excerpts and to reply "I couldn't find that in the documents I have" when they don't contain the answer.
+3. **Answers** by sending those 5 chunks and your question to Claude, with rules to use only the excerpts and to reply "I couldn't find the answer in the documents I have" when they don't contain the answer.
 4. **Shows its sources** so you can open the page and check the answer yourself.
-
-![CityLens saying it couldn't find an answer](docs/not_found.png)
 
 ---
 
@@ -133,7 +141,9 @@ CityLens/
 ├── data/                  # the PDFs
 ├── eval/
 │   └── test_questions.json  # 21 questions with the correct file and page
-├── docs/                  # screenshots
+├── docs/
+│   ├── answer.png         # screenshot: a question it can answer
+│   └── not_found.png      # screenshot: a question it can't answer
 ├── ingest.py              # split PDFs into chunks and store them in ChromaDB
 ├── ask.py                 # search the chunks and ask Claude to answer
 ├── app.py                 # Streamlit web page

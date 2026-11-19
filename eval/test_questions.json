@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Where does the city's money come from?",
+    "source": "financial_report.pdf",
+    "page": 14
+  },
+  {
+    "question": "How much did the city collect in property taxes in 2025?",
+    "source": "financial_report.pdf",
+    "page": 14
+  },
+  {
+    "question": "Why did property tax revenue go up in 2025?",
+    "source": "financial_report.pdf",
+    "page": 14
+  },
+  {
+    "question": "What caused EPCOR's revenue to increase?",
+    "source": "financial_report.pdf",
+    "page": 14
+  },
+  {
+    "question": "What were the city's total operating expenses in 2025?",
+    "source": "financial_report.pdf",
+    "page": 17
+  },
+  {
+    "question": "Which spending category cost the city the most in 2025?",
+    "source": "financial_report.pdf",
+    "page": 16
+  },
+  {
+    "question": "Why were capital revenues lower than budgeted?",
+    "source": "financial_report.pdf",
+    "page": 16
+  },
+  {
+    "question": "What was the city's accumulated surplus at the end of 2025?",
+    "source": "financial_report.pdf",
+    "page": 18
+  },
+  {
+    "question": "What is the 2026 tax increase for municipal services and for police?",
+    "source": "budget_highlights.pdf",
+    "page": 12
+  },
+  {
+    "question": "How big is the approved capital budget for 2023 to 2026?",
+    "source": "budget_highlights.pdf",
+    "page": 13
+  },
+  {
+    "question": "How many projects does the capital budget pay for?",
+    "source": "budget_highlights.pdf",
+    "page": 13
+  },
+  {
+    "question": "What share of the budget goes to police, transit and debt repayment?",
+    "source": "budget_highlights.pdf",
+    "page": 11
+  },
+  {
+    "question": "What are the main reasons the 2026 property tax is going up?",
+    "source": "budget_highlights.pdf",
+    "page": 9
+  },
+  {
+    "question": "When did council approve the spring tax levy confirmation?",
+    "source": "budget_highlights.pdf",
+    "page": 22
+  },
+  {
+    "question": "When did Edmonton's new zoning bylaw come into effect?",
+    "source": "zoning_guide.pdf",
+    "page": 3
+  },
+  {
+    "question": "What kinds of housing can be built in the RS zone?",
+    "source": "zoning_guide.pdf",
+    "page": 13
+  },
+  {
+    "question": "How can I find out what zone my property is in?",
+    "source": "zoning_guide.pdf",
+    "page": 60
+  },
+  {
+    "question": "What is an overlay in the zoning bylaw?",
+    "source": "zoning_guide.pdf",
+    "page": 48
+  },
+  {
+    "question": "Does Edmonton require a minimum number of parking spaces?",
+    "source": "zoning_guide.pdf",
+    "page": 65
+  },
+  {
+    "question": "Will my neighbours be told if a property near me is being rezoned?",
+    "source": "zoning_guide.pdf",
+    "page": 61
+  },
+  {
+    "question": "What does the zoning bylaw do about mature trees?",
+    "source": "zoning_guide.pdf",
+    "page": 64
+  }
+]
